@@ -1,0 +1,22 @@
+package inflearn;
+
+import java.util.Scanner;
+
+public class multipletable {
+	
+	public static void main(String[] args) {
+		
+		Scanner input=new Scanner(System.in);
+		System.out.println("숫자 입력: ");
+		int num=input.nextInt();
+		
+		int [] mul=new int[9];
+	
+		for(int i=1; i<mul.length; i++) {
+			mul[i]=num*i;
+			System.out.println(mul[i]);
+		}
+		
+	}
+
+}

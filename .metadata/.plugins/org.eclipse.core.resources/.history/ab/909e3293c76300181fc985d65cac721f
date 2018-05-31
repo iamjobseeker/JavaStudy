@@ -1,0 +1,13 @@
+package MultipleTable;
+
+//import MultipleTable.MultipleTable_02;
+
+public class Test {
+	public static void main(String[] args) {
+		int[] arr = new int[5];
+		arr= MultipleTable_02.calculate(5);
+		MultipleTable_02.prt(arr);
+		
+		
+	}
+}

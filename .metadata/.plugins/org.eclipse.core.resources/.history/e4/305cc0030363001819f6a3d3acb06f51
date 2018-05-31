@@ -1,0 +1,46 @@
+package inflearn;
+
+public class multipleTable_02 {
+	
+	public static int[] calculate(int times) {
+		
+		int[] result = new int[9];
+		for(int i=0; i<result.length; i++) {
+			result[i]=times*(i+1);
+		}
+		
+		return result;
+		
+	}
+
+	public static void main(String[] args) {
+		
+		// 메소드는 함수와 비슷하다고 생각하면 된다.
+		// 특정값을 입력하면 메소드의 로직에 의해 결과를 산출해준다.
+		
+		int[] times2 = calculate(2);	
+		for(int i=0; i<times2.length; i++) {
+			System.out.println(times2[i]);
+		}
+		
+		int[] times3 = calculate(3);
+		for(int i=0; i<times3.length; i++) {
+			System.out.println(times3[i]);
+		}
+		
+		int[] times4 = calculate(4);
+		for(int i=0; i<times4.length; i++) {
+			System.out.println(times4[i]);
+		}
+		
+		int[] times5 = calculate(5);
+		for(int i=0; i<times5.length; i++) {
+			System.out.println(times5[i]);
+		}
+		
+		
+		
+		
+	}
+
+}

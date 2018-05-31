@@ -1,0 +1,23 @@
+package codility.lesson;
+
+public class BinaryGap {
+	public static void main(String[] args) {
+		
+		int result = 0; 
+		int N = 42142342;
+		result = solution(N);
+		
+		
+		System.out.println("Result : " + result);
+		System.out.println("Result : " + solution(300));
+		
+	}
+	
+	public static int solution(int N) {
+		int answer = N;
+		
+		//coding HERE!!
+		
+		return answer; 
+	}
+}

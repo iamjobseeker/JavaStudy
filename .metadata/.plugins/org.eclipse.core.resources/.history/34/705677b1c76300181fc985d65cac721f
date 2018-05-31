@@ -1,0 +1,26 @@
+package MultipleTable;
+
+import java.util.Scanner;
+
+//import MultipleTable.MultipleTable_02;
+
+public class Test {
+	public static void main(String[] args) {
+		int[] arr = new int[5];
+		arr= MultipleTable_02.calculate(5);
+		MultipleTable_02.prt(arr);
+		
+		MultipleTable_02 mt2 = new MultipleTable_02();
+		mt2.calculate(5);
+		
+		String str = "test";
+		int[] arr2 = new int[5];
+		
+		//Class :
+		//Object(°´Ã¼, °³Ã¼) : 
+		//method : 
+		//instance : 
+		Scanner sc  = new Scanner(System.in);
+		
+	}
+}

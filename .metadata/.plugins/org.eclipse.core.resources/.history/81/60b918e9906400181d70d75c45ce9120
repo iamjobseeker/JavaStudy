@@ -1,0 +1,14 @@
+package MultipleTable;
+
+public class MultipleTableMain {
+
+	// main 부분이 없으면 
+	
+	public static void main(String[] args) {
+
+		for(int i=2; i<=9; i++) {
+			int[] result=MultipleTable_02.calculate(i);
+			MultipleTable_02.prt(result);
+		}
+	}
+}

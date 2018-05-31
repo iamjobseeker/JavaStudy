@@ -1,0 +1,25 @@
+package Study;
+
+import java.util.Scanner;
+
+public class Roadrunner_황진경 {
+	
+	Scanner kb=new Scanner(System.in);
+	String drt=kb.next(); //한줄에 입력하기
+	
+	System.out.println("*")
+	
+	
+
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

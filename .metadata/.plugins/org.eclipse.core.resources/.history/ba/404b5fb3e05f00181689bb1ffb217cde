@@ -1,0 +1,40 @@
+package codility.lesson;
+
+import java.util.Scanner;
+
+public class BinaryGap_02 {
+	public static void main(String[] args) {
+		
+		
+		result = solution(intg);
+				
+		System.out.println("result: " + result);
+		
+
+	}
+	public static int solution(int A) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Input integer: ");
+		int intg = sc.nextInt();
+		int cnt = 0;
+		int max = 0;
+		
+		for(;intg>=2;) { 
+			int binr=intg%2;
+			intg=intg/2;
+			if (binr==1){
+				cnt=0;
+			}
+			else {
+				cnt+=1;
+				if(cnt>=max) {
+					max=cnt;
+				}
+			}
+		}
+		
+		return max;
+	
+	}
+}
